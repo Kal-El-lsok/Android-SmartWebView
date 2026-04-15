@@ -71,15 +71,15 @@ public class Playground {
             }
         });
 
-        // AdMobPlugin Configuration
-        runPluginAction("AdMobPlugin", plugin -> {
-            Map<String, Object> config = SWVContext.getPluginManager().getPluginConfig("AdMobPlugin");
-            if (config != null) {
-                config.put("bannerAdUnitId", "ca-app-pub-3940256099942544/6300978111");
-                config.put("interstitialAdUnitId", "ca-app-pub-3940256099942544/1033173712");
-                config.put("rewardedAdUnitId", "ca-app-pub-3940256099942544/5224354917");
-            }
-        });
+       // AdMobPlugin Configuration
+runPluginAction("AdMobPlugin", plugin -> {
+    Map<String, Object> config = SWVContext.getPluginManager().getPluginConfig("AdMobPlugin");
+    if (config != null) {
+        config.put("bannerAdUnitId", "YOUR_REAL_BANNER_AD_UNIT_ID");
+        config.put("interstitialAdUnitId", "YOUR_REAL_INTERSTITIAL_AD_UNIT_ID");
+        config.put("rewardedAdUnitId", "YOUR_REAL_REWARDED_AD_UNIT_ID");
+    }
+});
 
         // ... (add other plugin configurations here)
     }
