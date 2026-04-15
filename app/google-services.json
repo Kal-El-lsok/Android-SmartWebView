@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "249897511373",
+    "project_id": "ambitex-motivation",
+    "storage_bucket": "ambitex-motivation.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249897511373:android:c6c31d496f95ec39be3c84",
+        "android_client_info": {
+          "package_name": "com.ambitex.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeZ3gs2frhtFWcPyxdWKd_EIvT1a9muvE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
