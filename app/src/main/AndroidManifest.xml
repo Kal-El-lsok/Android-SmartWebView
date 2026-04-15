@@ -143,7 +143,11 @@
 
 		<meta-data
 			android:name="com.google.android.gms.ads.APPLICATION_ID"
-			android:value="@string/admob_app_id"/>
+			android:value="@string/ca-app-pub-9590240494604764~5680284850"/>
+
+		<meta-data
+    android:name="com.google.android.gms.ads.APPLICATION_ID"
+    android:value="ca-app-pub-9590240494604764~5680284850"/>
 
 		<!-- Bypass APPLICATION_ID check for web view APIs for ads -->
 <meta-data
