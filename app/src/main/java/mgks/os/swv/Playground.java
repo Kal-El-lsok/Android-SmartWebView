@@ -75,8 +75,8 @@ public class Playground {
 runPluginAction("AdMobPlugin", plugin -> {
     Map<String, Object> config = SWVContext.getPluginManager().getPluginConfig("AdMobPlugin");
     if (config != null) {
-        config.put("bannerAdUnitId", "YOUR_REAL_BANNER_AD_UNIT_ID");
-        config.put("interstitialAdUnitId", "YOUR_REAL_INTERSTITIAL_AD_UNIT_ID");
+        config.put("bannerAdUnitId", "ca-app-pub-9590240494604764/5743864030");
+        config.put("interstitialAdUnitId", "ca-app-pub-9590240494604764/4239210676");
         config.put("rewardedAdUnitId", "YOUR_REAL_REWARDED_AD_UNIT_ID");
     }
 });
