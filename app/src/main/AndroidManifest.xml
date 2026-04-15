@@ -145,5 +145,10 @@
 			android:name="com.google.android.gms.ads.APPLICATION_ID"
 			android:value="@string/admob_app_id"/>
 
+		<!-- Bypass APPLICATION_ID check for web view APIs for ads -->
+<meta-data
+    android:name="com.google.android.gms.ads.INTEGRATION_MANAGER"
+    android:value="webview"/>
+
 	</application>
 </manifest>
